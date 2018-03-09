@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="WeixinPay demo!"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/weixinpay_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#52bc7a"
+        android:text="WeiXinPay"
+        android:textColor="#FFF"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/alipay_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#52bc7a"
+        android:text="AliPay"
+        android:textColor="#FFF"
+        android:textSize="17sp" />
+
+
+</LinearLayout>
