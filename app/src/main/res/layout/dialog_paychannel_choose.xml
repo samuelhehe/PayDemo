@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/weixin_llay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/icon_common_pay_weixin"
+            android:drawablePadding="15dp"
+            android:text="@string/common_str_weixin_pay"
+            android:textColor="@color/common_system_64_color"
+            android:textSize="16sp" />
+
+
+        <RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/wx_trbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="25dp"
+            android:button="@drawable/contact_node_check_btn_selector"
+            android:checked="true"
+            android:minHeight="40dp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+
+
+    <LinearLayout
+        android:id="@+id/alipay_llay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/icon_common_pay_alipay"
+            android:drawablePadding="15dp"
+            android:text="@string/common_str_pay_alipay"
+            android:textColor="@color/common_system_64_color"
+            android:textSize="16sp" />
+
+
+        <RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/alipay_trbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="25dp"
+            android:button="@drawable/contact_node_check_btn_selector"
+            android:checked="false"
+            android:minHeight="40dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+
+
+    <Button
+        android:id="@+id/pay_btn2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@android:color/holo_green_light"
+        android:enabled="true"
+        android:text="@string/common_str_orders_gopay"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -15,5 +15,18 @@
     <color name="lightransparent">#a0000000</color>
     <color name="transparent">#00000000</color>
     <color name="navpage">#FFE1E8EB</color>
+    <color name="back_overlay">#60000000</color>
+    <color name="line_color">#E0E5E5</color>
+
+    <color name="common_system_61_color">#111111</color>
+    <color name="common_system_62_color">#222222</color>
+    <color name="common_system_63_color">#333333</color>
+    <color name="common_system_64_color">#444444</color>
+    <color name="common_system_70p64_color">#b3444444</color>
+    <color name="common_system_65_color">#555555</color>
+    <color name="common_system_66_color">#666666</color>
+    <color name="common_system_67_color">#777777</color>
+    <color name="common_system_68_color">#888888</color>
+    <color name="common_system_69_color">#999999</color>
 
 </resources>

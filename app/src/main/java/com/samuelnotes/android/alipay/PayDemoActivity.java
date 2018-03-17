@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v4.app.FragmentActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -25,7 +24,7 @@ import java.util.Map;
  * 真实App里，privateKey等数据严禁放在客户端，加签过程务必要放在服务端完成；
  * 防止商户私密数据泄露，造成不必要的资金损失，及面临各种安全风险；
  */
-public class PayDemoActivity extends FragmentActivity {
+public class PayDemoActivity extends FragmActivity {
 
     /**
      * 支付宝支付业务：入参app_id
