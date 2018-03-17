@@ -6,12 +6,12 @@ Usage
 =====
 * 可以将项目中的包名，参数修改成自己的，进行测试。 
 * 可以参考支付宝接入流程： [http://blog.csdn.net/shinnexi/article/details/79474346](http://blog.csdn.net/shinnexi/article/details/79474346)
-
+* 可以参考微信接入流程：[http://blog.csdn.net/shinnexi/article/details/79594416](http://blog.csdn.net/shinnexi/article/details/79594416)
 
 License
 =======
 
-    Copyright (C) 2015-2016 samuelnotes
+    Copyright (C) 2015-2018 samuelnotes
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
